@@ -1,0 +1,14 @@
+{
+  "name": "mrp-app",
+  "private": true,
+  "description": "MRP: позиции, спецификации (BOM), дерево состава",
+  "scripts": {
+    "dev": "concurrently -n api,front \"npm run dev:api\" \"npm run dev:front\"",
+    "dev:api": "dotnet run --project backend/Mrp.API/Mrp.API.csproj",
+    "dev:front": "npm run dev --prefix frontend",
+    "install-all": "npm install && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
