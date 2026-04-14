@@ -131,3 +131,4 @@ C:\Users\NikQ28\source\repos\Mrp\backend\obj\Debug\net10.0\refint\backend.dll
 C:\Users\NikQ28\source\repos\Mrp\backend\obj\Debug\net10.0\backend.pdb
 C:\Users\NikQ28\source\repos\Mrp\backend\obj\Debug\net10.0\backend.genruntimeconfig.cache
 C:\Users\NikQ28\source\repos\Mrp\backend\obj\Debug\net10.0\ref\backend.dll
+C:\Users\NikQ28\source\repos\Mrp\backend\obj\Debug\net10.0\backend.sourcelink.json

@@ -8,6 +8,8 @@ namespace backend.DataAccess
         public DbSet<Item> Items { get; set; }
         public DbSet<Bom> Boms { get; set; }
         public DbSet<Stock> Stocks { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderString> OrderStrings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +28,17 @@ namespace backend.DataAccess
                 .Property(s => s.Operation)
                 .HasConversion<int>()
                 .HasColumnType("integer");
+
+            modelBuilder.Entity<Order>()
+                .HasKey(o => o.Id);
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.Status)
+                .HasConversion<int>()
+                .HasColumnType("integer");
+
+            modelBuilder.Entity<OrderString>()
+                .HasKey(os => os.Id);
         }
     }
 

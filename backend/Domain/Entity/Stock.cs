@@ -10,7 +10,7 @@
     }
     public enum OperationType
     {
-        Приход, 
-        Расход
+        Coming, 
+        Expense
     };
 }

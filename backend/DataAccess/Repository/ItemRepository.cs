@@ -9,7 +9,7 @@ namespace backend.DataAccess.Repository
     {
         public async Task<List<Item>> Get() => await context.Items.AsNoTracking().ToListAsync();
         public async Task<Item> GetById(int id) => await context.Items.FirstAsync(i => i.Id == id);
-        public async Task<List<int>> GetChildrenByRootId(int rootId) =>
+        public async Task<List<int>> GetChildrenIdByRootId(int rootId) =>
               await context.Boms.Where(c => c.ParentId == rootId).Select(c => c.ComponentId).ToListAsync();
         public async Task<Item> Create(Item item)
         {

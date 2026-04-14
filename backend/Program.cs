@@ -1,7 +1,6 @@
 using backend.DataAccess;
 using backend.DataAccess.Repository;
 using backend.Domain.Contract;
-using backend.Domain.Entity;
 using backend.Domain.Repository;
 using backend.Domain.Service;
 using Microsoft.EntityFrameworkCore;
@@ -13,19 +12,18 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<MrpContext>(options =>
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString(nameof(MrpContext))
-            ?? throw new InvalidOperationException("Отсутствует строка подключения MrpContext."),
-        npgsql => npgsql.MapEnum<OperationType>()));
+    options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(MrpContext))));
 
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
 builder.Services.AddScoped<IBomRepository, BomRepository>();
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 builder.Services.AddScoped<IItemService, ItemService>();
 builder.Services.AddScoped<IBomService, BomService>();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<ITreeService, TreeService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddCors(options =>
 {

@@ -8,7 +8,7 @@ namespace backend.Domain.Repository
         Task<int> Delete(int id);
         Task<List<Item>> Get();
         Task<Item> GetById(int id);
-        Task<List<int>> GetChildrenByRootId(int rootId);
+        Task<List<int>> GetChildrenIdByRootId(int rootId);
         Task<int> Update(int id, string name, string? description);
     }
 }

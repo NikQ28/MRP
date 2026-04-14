@@ -4,7 +4,7 @@ using backend.Domain.Repository;
 
 namespace backend.Domain.Service
 {
-    public class TreeService(IItemRepository itemRepository, IBomRepository bomRepository, IStockRepository stockRepository) : ITreeService
+    public class TreeService(IItemRepository itemRepository, IBomRepository bomRepository, IStockRepository stockRepository, IOrderRepository orderRepository) : ITreeService
     {
         public async Task<TreeNode> GetTreeNodeByItemId(int itemId)
         {
@@ -15,7 +15,7 @@ namespace backend.Domain.Service
             {
                 Id = itemId,
                 Name = nodeItem.Name,
-                Count = bom?.Count ?? 1,
+                Count = bom != null ? bom.Count : 1,
                 Children = children
             };
             return node;
@@ -23,7 +23,7 @@ namespace backend.Domain.Service
 
         public async Task<List<TreeNode>> GetChildrenByNodeId(int nodeId)
         {
-            var childIds = await itemRepository.GetChildrenByRootId(nodeId);
+            var childIds = await itemRepository.GetChildrenIdByRootId(nodeId);
             List<TreeNode> children = [];
             foreach (var childId in childIds)
                 children.Add(await GetTreeNodeByItemId(childId));
@@ -38,9 +38,10 @@ namespace backend.Domain.Service
             var itemIds = await GetItemIdsByNodeId(nodeId);
             var itemWithStock = itemIds.Where(id => stocks.Any(s => s.ItemId == id)).ToList();
 
-            if (itemWithStock.Any())
-                throw new Exception("Couldn't be deleted!");
-            else
+            var orderStrings = await orderRepository.GetAllStringsAsync();
+            var itemWithOrderStrings = itemIds.Where(id => orderStrings.Any(os => os.ItemId == id)).ToList();
+
+            if (itemWithStock.Count == 0 && itemWithOrderStrings.Count == 0)
             {
                 var bom = await bomRepository.GetByComponentId(nodeId);
 
@@ -52,18 +53,31 @@ namespace backend.Domain.Service
 
                 await itemRepository.Delete(nodeId);
             }
-            
+
             return nodeId;
         }
 
         public async Task<List<int>> GetItemIdsByNodeId(int nodeId)
         {
-            var childrenId = await itemRepository.GetChildrenByRootId(nodeId);
+            var childrenId = await itemRepository.GetChildrenIdByRootId(nodeId);
             List<int> itemIds = [nodeId];
 
             foreach (var childId in childrenId)
                 itemIds.AddRange(await GetItemIdsByNodeId(childId));    
             return itemIds;
+        }
+
+        public async Task<List<int>> GetMaterialIdsByRootId(int rootId)
+        {
+            var childrenId = await itemRepository.GetChildrenIdByRootId(rootId);
+            if (childrenId.Count == 0)
+                return [rootId];
+
+            List<int> materialIds = [];
+
+            foreach (var childId in childrenId)
+                materialIds.AddRange(await GetMaterialIdsByRootId(childId));
+            return materialIds;
         }
     }
 }
