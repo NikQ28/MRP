@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aJH2aKe+aAk=",
+  "dgSpecHash": "4z6KXQCaUHI=",
   "success": true,
   "projectFilePath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
   "expectedPackageFiles": [
@@ -45,5 +45,18 @@
     "C:\\Users\\NikQ28\\.nuget\\packages\\system.composition.runtime\\9.0.0\\system.composition.runtime.9.0.0.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "У пакета \"OpenTelemetry.Api\" 1.15.0 есть известная уязвимость https://github.com/advisories/GHSA-g94r-2vxg-569j (уровень серьезности: средний)",
+      "projectPath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
+      "libraryId": "OpenTelemetry.Api",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

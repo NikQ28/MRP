@@ -12,10 +12,7 @@ namespace backend.Controller
         public async Task<ActionResult<List<OrderObject>>> GetAllOrders() => Ok(await orderService.GetAllOrderObjectsAsync());
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreateOrder([FromBody] OrderRequest request)
-        {
-            return Ok(await orderService.CreateOrderObjectAsync(request));
-        }
+        public async Task<ActionResult<int>> CreateOrder([FromBody] OrderRequest request) => Ok(await orderService.CreateOrderObjectAsync(request));
 
         [HttpPut("{orderId:int}")]
         public async Task<ActionResult<int>> UpdateOrder(int orderId, [FromBody] OrderRequest request) =>

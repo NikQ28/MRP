@@ -76,7 +76,7 @@ namespace backend.Domain.Service
             List<int> materialIds = [];
 
             foreach (var childId in childrenId)
-                materialIds.AddRange(await GetMaterialIdsByRootId(childId));
+                materialIds.Add((await GetMaterialIdsByRootId(childId))[0]);
             return materialIds;
         }
     }

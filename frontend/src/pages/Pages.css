@@ -1,0 +1,216 @@
+.page {
+  padding: 16px 20px;
+  text-align: left;
+  flex: 1;
+}
+
+.page h2 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px 12px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  font-size: 16px;
+  min-width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  background: #fcfcfc;
+  color: #2a2a2a;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  outline: 2px solid #d7d7d7;
+  outline-offset: 1px;
+}
+
+.form-row button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  background: linear-gradient(180deg, #fafafa 0%, #f1f1f1 100%);
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.06s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.form-row button:hover:not(:disabled) {
+  background: linear-gradient(180deg, #f6f6f6 0%, #ececec 100%);
+  border-color: #c7c7c7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-row button:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06) inset;
+}
+
+.form-row button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: left;
+  color: #2f2f2f;
+}
+
+.data-table td.buttons {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: right;
+}
+
+
+.data-table th {
+  font-weight: 600;
+  background: #f7f7f7;
+  color: #555;
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  background: linear-gradient(180deg, #fafafa 0%, #f1f1f1 100%);
+  color: #2c2c2c;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.06s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.btn-sm:hover {
+  background: linear-gradient(180deg, #f6f6f6 0%, #ececec 100%);
+  border-color: #c7c7c7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.btn-sm:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06) inset;
+}
+
+.btn-sm.danger {
+  border-color: #dfc8c8;
+  color: #7e4b4b;
+  background: linear-gradient(180deg, #faf7f7 0%, #f5eeee 100%);
+}
+
+.btn-sm.danger:hover {
+  background: linear-gradient(180deg, #f7f1f1 0%, #eee4e4 100%);
+  border-color: #d3b6b6;
+}
+
+.tree-root {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  background: #fcfcfc;
+}
+
+.tree-node {
+  margin-bottom: 4px;
+}
+
+.tree-node-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.tree-actions {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+
+}
+
+.tree-item {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #3f3f3f;
+  border: 1px solid #d8d8d8;
+}
+
+.tree-children {
+  margin-top: 4px;
+}
+
+.tree-actions {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.buttons{
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+.actions-right {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e4e4e4;
+  background: #fafafa;
+}
+
+.nav a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.nav a:hover {
+  background: #f0f0f0;
+  color: #333;
+  border-color: #e4e4e4;
+}
+
+.nav a.active {
+  background: #efefef;
+  color: #2f2f2f;
+  border: 1px solid #dddddd;
+}

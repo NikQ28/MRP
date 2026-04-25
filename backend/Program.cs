@@ -24,6 +24,7 @@ builder.Services.AddScoped<IBomService, BomService>();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddScoped<ITreeService, TreeService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<ICalculateService, CalculateService>();
 
 builder.Services.AddCors(options =>
 {
