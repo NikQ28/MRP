@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4z6KXQCaUHI=",
+  "dgSpecHash": "gz4mGMljy2Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\NikQ28\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\13.2.0\\aspire.npgsql.entityframeworkcore.postgresql.13.2.0.nupkg.sha512",
+    "C:\\Users\\NikQ28\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\13.2.4\\aspire.npgsql.entityframeworkcore.postgresql.13.2.4.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
@@ -30,10 +30,10 @@
     "C:\\Users\\NikQ28\\.nuget\\packages\\npgsql.dependencyinjection\\10.0.1\\npgsql.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.0\\npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\npgsql.opentelemetry\\10.0.1\\npgsql.opentelemetry.10.0.1.nupkg.sha512",
-    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry\\1.15.0\\opentelemetry.1.15.0.nupkg.sha512",
-    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.api\\1.15.0\\opentelemetry.api.1.15.0.nupkg.sha512",
-    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.15.0\\opentelemetry.api.providerbuilderextensions.1.15.0.nupkg.sha512",
-    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.15.0\\opentelemetry.extensions.hosting.1.15.0.nupkg.sha512",
+    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry\\1.15.3\\opentelemetry.1.15.3.nupkg.sha512",
+    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.api\\1.15.3\\opentelemetry.api.1.15.3.nupkg.sha512",
+    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.15.3\\opentelemetry.api.providerbuilderextensions.1.15.3.nupkg.sha512",
+    "C:\\Users\\NikQ28\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.15.3\\opentelemetry.extensions.hosting.1.15.3.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512",
@@ -45,18 +45,5 @@
     "C:\\Users\\NikQ28\\.nuget\\packages\\system.composition.runtime\\9.0.0\\system.composition.runtime.9.0.0.nupkg.sha512",
     "C:\\Users\\NikQ28\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "У пакета \"OpenTelemetry.Api\" 1.15.0 есть известная уязвимость https://github.com/advisories/GHSA-g94r-2vxg-569j (уровень серьезности: средний)",
-      "projectPath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
-      "libraryId": "OpenTelemetry.Api",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -1021,11 +1021,15 @@
             "type": "integer",
             "format": "int32"
           },
-          "count": {
+          "requiredCount": {
             "type": "integer",
             "format": "int32"
           },
-          "needToProduce": {
+          "stockCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "needCount": {
             "type": "integer",
             "format": "int32"
           }

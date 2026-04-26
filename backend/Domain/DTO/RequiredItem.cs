@@ -4,7 +4,7 @@ namespace backend.Domain.DTO
     {
         public int ItemId { get; set; }
         public int RequiredCount { get; set; } = 0;
-        public int StoredCount { get; set; } = 0;
-        public int NeedToProduce { get; set; } = 0;
+        public int StockCount { get; set; } = 0;
+        public int NeedCount { get; set; } = 0;
     }
 }

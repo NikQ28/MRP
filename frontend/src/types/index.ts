@@ -68,6 +68,6 @@ export interface OrderRequest {
 export interface RequiredItem {
   itemId: number
   requiredCount: number
-  storedCount: number
-  needToProduce: number
+  stockCount: number
+  needCount: number
 }

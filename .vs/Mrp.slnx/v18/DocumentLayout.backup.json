@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\calculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\calculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\dto\\requireditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\dto\\requireditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\entity\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\entity\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\dataaccess\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\contract\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\treecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\treecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -103,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\dataaccess\\repository\\bomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\entity\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\entity\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\dto\\orderobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -163,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CalculateService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\CalculateService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\CalculateService.cs",
               "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\CalculateService.cs",
               "RelativeToolTip": "backend\\Domain\\Service\\CalculateService.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAqwGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T15:33:20.157Z",
               "IsPinned": true,
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TreeService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\TreeService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\TreeService.cs",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CalculateController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\CalculateController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\CalculateController.cs",
@@ -199,8 +199,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T15:08:24.528Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -208,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "backend.csproj",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend\\backend.csproj",
@@ -220,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\OrderController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\OrderController.cs",
@@ -232,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "BomResponse.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\BomResponse.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\BomResponse.cs",
@@ -244,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ItemRequest.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\ItemRequest.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\ItemRequest.cs",
@@ -256,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ItemResponse.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\ItemResponse.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\ItemResponse.cs",
@@ -268,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IBomService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Contract\\IBomService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Contract\\IBomService.cs",
@@ -280,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "IItemService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Contract\\IItemService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Contract\\IItemService.cs",
@@ -292,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\ItemController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\ItemController.cs",
@@ -304,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "StockController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\StockController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\StockController.cs",
@@ -316,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TreeController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\TreeController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\TreeController.cs",
@@ -328,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "BomController.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\BomController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\BomController.cs",
@@ -340,20 +339,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RequiredItem.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\RequiredItem.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\RequiredItem.cs",
               "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\RequiredItem.cs",
               "RelativeToolTip": "backend\\Domain\\DTO\\RequiredItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T12:06:34.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 4,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Entity\\Stock.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Entity\\Stock.cs",
@@ -365,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "OrderString.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Entity\\OrderString.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Entity\\OrderString.cs",
@@ -377,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Entity\\Order.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Entity\\Order.cs",
@@ -389,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Entity\\Item.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Entity\\Item.cs",
@@ -401,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Bom.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Entity\\Bom.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Entity\\Bom.cs",
@@ -413,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "TreeNode.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\TreeNode.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\TreeNode.cs",
@@ -425,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\OrderService.cs",
@@ -437,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ICalculateService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Contract\\ICalculateService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Contract\\ICalculateService.cs",
@@ -445,12 +444,11 @@
               "RelativeToolTip": "backend\\Domain\\Contract\\ICalculateService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:40:40.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T23:40:40.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ItemService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\ItemService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\ItemService.cs",
@@ -462,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "backend\\DataAccess\\Repository\\OrderRepository.cs",
@@ -498,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "OrderResponse.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\OrderResponse.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\OrderResponse.cs",
@@ -510,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "OrderRequest.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\OrderRequest.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\OrderRequest.cs",
@@ -522,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "OrderStringRequest.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\DTO\\OrderStringRequest.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\DTO\\OrderStringRequest.cs",
@@ -534,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 2,
               "Title": "StockService.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\StockService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\StockService.cs",
@@ -546,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "StockRepository.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\Repository\\StockRepository.cs",
               "RelativeDocumentMoniker": "backend\\DataAccess\\Repository\\StockRepository.cs",
@@ -558,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BomRepository.cs",
               "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\Repository\\BomRepository.cs",
               "RelativeDocumentMoniker": "backend\\DataAccess\\Repository\\BomRepository.cs",

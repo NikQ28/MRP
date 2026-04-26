@@ -28,14 +28,17 @@ export function Calc() {
             </tr>
           </thead>
           <tbody>
-            {p.list.map((row) => (
+            {p.list
+            .filter(row => !(row.needCount === 0 && row.requiredCount === 0 && row.stockCount === 0))
+            .map((row) => (
               <tr key={row.itemId}>
                 <td>{p.itemLabel(row.itemId)}</td>
                 <td>{row.requiredCount}</td>
-                <td>{row.storedCount}</td>
-                <td>{row.needToProduce}</td>
+                <td>{row.stockCount}</td>
+                <td>{row.needCount}</td>
               </tr>
-            ))}
+            ))
+            }
           </tbody>
         </table>
       )}
