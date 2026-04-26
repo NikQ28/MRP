@@ -10,6 +10,6 @@ namespace backend.Controller
     {
         [HttpGet]
         public async Task<ActionResult<List<RequiredItem>>> CalculateOrders() => 
-            Ok(await calculateService.CalculateRequiredItems());
+            Ok(await calculateService.Calculate());
     }
 }

@@ -1,8 +1,8 @@
-﻿using backend.Domain.Contract;
+﻿using backend.Controller;
+using backend.Domain.Contract;
 using backend.Domain.DTO;
 using backend.Domain.Entity;
 using backend.Domain.Repository;
-using Microsoft.EntityFrameworkCore.Storage.Json;
 
 namespace backend.Domain.Service
 {
@@ -25,15 +25,13 @@ namespace backend.Domain.Service
             return stockRemainders;
         }
 
-        public RequiredItem CreateRequiredItem(int itemId, int requiredCount, int stockCount)
+        public RequiredItem CreateRequiredItem(int itemId, int count)
         {
             var required = new RequiredItem
             {
                 ItemId = itemId,
-                RequiredCount = requiredCount,
-                StockCount = stockCount
+                RequiredCount = count
             };
-            required.NeedCount = required.RequiredCount - required.StockCount <= 0 ? 0 : required.RequiredCount - required.StockCount;
             return required;
         }
 
@@ -41,17 +39,29 @@ namespace backend.Domain.Service
         {
             var node = await treeService.GetTreeNodeByItemId(rootId);
             var bom = await bomRepository.GetByComponentId(rootId);
-            var stockRemainders = await CalculateRemainderStock();         
 
-            if (!stockRemainders.ContainsKey(rootId))
-                stockRemainders[rootId] = 0;
-
-            var requiredItem = CreateRequiredItem(rootId, bom == null ? 1 * requiredCount : bom.Count * requiredCount, stockRemainders[rootId]);
+            var requiredItem = CreateRequiredItem(rootId, bom == null ? 1 * requiredCount : bom.Count * requiredCount);
             List<RequiredItem> requiredItems = [requiredItem];
 
             foreach (var child in node.Children)
-                requiredItems.AddRange(await GetRequiredItemsByRootId(child.Id, requiredItem.NeedCount));
+                requiredItems.AddRange(await GetRequiredItemsByRootId(child.Id, requiredItem.RequiredCount));
             return requiredItems;
+        }
+
+        public async Task<List<RequiredItem>> CalculateRemaindedItems()
+        {
+            var stockRemainders = await CalculateRemainderStock();
+            List<RequiredItem> storedItems = [];
+            foreach (var item in stockRemainders)
+                storedItems.AddRange(await GetRequiredItemsByRootId(item.Key, item.Value));
+
+            List<RequiredItem> storedItemsByStocks = storedItems.GroupBy(ri => ri.ItemId).Select(g => new RequiredItem
+            {
+                ItemId = g.Key,
+                RequiredCount = g.Sum(ri => ri.RequiredCount)
+            }).ToList();
+
+            return storedItemsByStocks;
         }
 
         public async Task<List<RequiredItem>> CalculateRequiredItems()
@@ -60,23 +70,34 @@ namespace backend.Domain.Service
             List<OrderString> orderStrings = [];
             foreach (var order in openOrders)
                 orderStrings.AddRange(await orderRepository.GetStringsByOrderIdAsync(order.Id));
-                
-            var stockRemainders = await CalculateRemainderStock();
 
             List<RequiredItem> requiredItems = [];
             foreach (var orderString in orderStrings)
                 requiredItems.AddRange(await GetRequiredItemsByRootId(orderString.ItemId, orderString.Count));
 
-            List<RequiredItem> requiredItemsByOrderStrings = requiredItems.GroupBy(ri => ri.ItemId).Select(g => new RequiredItem {
+            List<RequiredItem> requiredItemsByOrderStrings = requiredItems.GroupBy(ri => ri.ItemId).Select(g => new RequiredItem 
+            {
                 ItemId = g.Key,
                 RequiredCount = g.Sum(ri => ri.RequiredCount),
-                StockCount = stockRemainders.ContainsKey(g.Key) ? stockRemainders[g.Key] : 0
             }).ToList();
-                
-            foreach (var requiredItem in requiredItemsByOrderStrings)
-                requiredItem.NeedCount = (requiredItem.RequiredCount - requiredItem.StockCount) <= 0 ? 0 : requiredItem.RequiredCount - requiredItem.StockCount;
 
-            return requiredItemsByOrderStrings.OrderBy(ri => ri.ItemId).ToList();
+            return requiredItemsByOrderStrings;
         } 
+
+        public async Task<List<RequiredItem>> Calculate()
+        {
+            var requiredItems = await CalculateRequiredItems();
+            var storedItems = await CalculateRemaindedItems();
+
+            foreach (var requiredItem in requiredItems)
+                foreach (var storedItem in storedItems)
+                    if (requiredItem.ItemId == storedItem.ItemId)
+                    {
+                        requiredItem.StoredCount = storedItem.RequiredCount;
+                        requiredItem.NeedToProduce = requiredItem.RequiredCount - storedItem.RequiredCount;
+                    }
+
+            return requiredItems.OrderBy(ri => ri.ItemId).ToList();
+        }
     }
 }

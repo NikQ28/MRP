@@ -64,3 +64,10 @@ export interface OrderRequest {
   status: OrderStatus
   orderStrings: OrderLine[]
 }
+
+export interface RequiredItem {
+  itemId: number
+  requiredCount: number
+  storedCount: number
+  needToProduce: number
+}
