@@ -7,15 +7,16 @@ namespace backend.Domain.Service
 {
     public class CalculateService(IBomRepository bomRepository, IStockRepository stockRepository, IOrderRepository orderRepository) : ICalculateService
     {
-        public async Task<List<RequiredItem>> Calculate()
+        public async Task<List<RequiredItem>> Calculate(DateTime datetime)
         {
             var boms = await bomRepository.Get();
-            var orders = (await orderRepository.GetAsync()).Where(o => o.Status == Status.Open).ToList();
+            var orders = (await orderRepository.GetAsync()).Where(o => o.Status == Status.Open).Where(o => o.Execution.Date > datetime.Date).ToList();
             List<OrderString> orderStrings = [];
             foreach (var order in orders)
                 orderStrings.AddRange(await orderRepository.GetStringsByOrderIdAsync(order.Id));
             
-            var stock = (await stockRepository.Get()).GroupBy(s => s.ItemId).ToDictionary(g => g.Key, g => g.Sum(s => s.Operation == OperationType.Coming ? s.Count : -s.Count));
+            var stock = (await stockRepository.Get()).Where(s => s.Datetime.Date < datetime.Date).GroupBy(s => s.ItemId)
+                .ToDictionary(g => g.Key, g => g.Sum(s => s.Operation == OperationType.Coming ? s.Count : -s.Count));
             var children = boms.GroupBy(b => b.ParentId).ToDictionary(g => g.Key, g => g.ToList());
             List<RequiredItem> required = [];
            

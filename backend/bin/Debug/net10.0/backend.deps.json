@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "backend/1.0.0": {
         "dependencies": {
-          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "13.2.0",
+          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "13.2.4",
           "Microsoft.AspNetCore.OpenApi": "10.0.5",
           "Microsoft.EntityFrameworkCore": "10.0.5",
           "Microsoft.EntityFrameworkCore.Design": "10.0.5",
@@ -20,18 +20,18 @@
           "backend.dll": {}
         }
       },
-      "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/13.2.0": {
+      "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/13.2.4": {
         "dependencies": {
           "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "10.0.5",
           "Npgsql.DependencyInjection": "10.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
           "Npgsql.OpenTelemetry": "10.0.1",
-          "OpenTelemetry.Extensions.Hosting": "1.15.0"
+          "OpenTelemetry.Extensions.Hosting": "1.15.3"
         },
         "runtime": {
           "lib/net10.0/Aspire.Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "assemblyVersion": "13.2.0.0",
-            "fileVersion": "13.200.26.17003"
+            "assemblyVersion": "13.2.4.0",
+            "fileVersion": "13.200.426.22404"
           }
         }
       },
@@ -472,7 +472,7 @@
       "Npgsql.OpenTelemetry/10.0.1": {
         "dependencies": {
           "Npgsql": "10.0.1",
-          "OpenTelemetry.Api": "1.15.0"
+          "OpenTelemetry.Api": "1.15.3"
         },
         "runtime": {
           "lib/net8.0/Npgsql.OpenTelemetry.dll": {
@@ -481,44 +481,44 @@
           }
         }
       },
-      "OpenTelemetry/1.15.0": {
+      "OpenTelemetry/1.15.3": {
         "dependencies": {
-          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.15.0"
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.15.3"
         },
         "runtime": {
           "lib/net10.0/OpenTelemetry.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.15.0.1921"
+            "fileVersion": "1.15.3.2017"
           }
         }
       },
-      "OpenTelemetry.Api/1.15.0": {
+      "OpenTelemetry.Api/1.15.3": {
         "runtime": {
           "lib/net10.0/OpenTelemetry.Api.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.15.0.1921"
+            "fileVersion": "1.15.3.2017"
           }
         }
       },
-      "OpenTelemetry.Api.ProviderBuilderExtensions/1.15.0": {
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.15.3": {
         "dependencies": {
-          "OpenTelemetry.Api": "1.15.0"
+          "OpenTelemetry.Api": "1.15.3"
         },
         "runtime": {
           "lib/net10.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.15.0.1921"
+            "fileVersion": "1.15.3.2017"
           }
         }
       },
-      "OpenTelemetry.Extensions.Hosting/1.15.0": {
+      "OpenTelemetry.Extensions.Hosting/1.15.3": {
         "dependencies": {
-          "OpenTelemetry": "1.15.0"
+          "OpenTelemetry": "1.15.3"
         },
         "runtime": {
           "lib/net10.0/OpenTelemetry.Extensions.Hosting.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.15.0.1921"
+            "fileVersion": "1.15.3.2017"
           }
         }
       },
@@ -628,12 +628,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/13.2.0": {
+    "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL/13.2.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2uJWr9nAQWStJX3b+SUX7o6T98pd3RzxdJuLvPHFoeM5YnzTfxC0Ytiv26WhYo1hZDJeV5g7YOxLIvfsNWh1tw==",
-      "path": "aspire.npgsql.entityframeworkcore.postgresql/13.2.0",
-      "hashPath": "aspire.npgsql.entityframeworkcore.postgresql.13.2.0.nupkg.sha512"
+      "sha512": "sha512-TFNvj3bp2C6JC+hO6Ldz+bLSFsGCe54ft+WoOT9H9lgAbkGHJ4Ye5HDHPojzvuABE+M/90ebZRfC1Q4R46kwNw==",
+      "path": "aspire.npgsql.entityframeworkcore.postgresql/13.2.4",
+      "hashPath": "aspire.npgsql.entityframeworkcore.postgresql.13.2.4.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -789,33 +789,33 @@
       "path": "npgsql.opentelemetry/10.0.1",
       "hashPath": "npgsql.opentelemetry.10.0.1.nupkg.sha512"
     },
-    "OpenTelemetry/1.15.0": {
+    "OpenTelemetry/1.15.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7mS/oZFF8S6xyqGQfMU1btp0nXJQUPWV535Vp/XMLYwRAUv36xQN+U4vufWBF1+z4HnRTOwuFHtUSGnHbyN6FQ==",
-      "path": "opentelemetry/1.15.0",
-      "hashPath": "opentelemetry.1.15.0.nupkg.sha512"
+      "sha512": "sha512-N0i6WjPoHPbZyms1ugbDIFAJFuGlpeExJMU/+XSL0lQRUkg/D0utFkDoLXf8Z1km5B+xVZ2GyMXXiX8qdeNmPg==",
+      "path": "opentelemetry/1.15.3",
+      "hashPath": "opentelemetry.1.15.3.nupkg.sha512"
     },
-    "OpenTelemetry.Api/1.15.0": {
+    "OpenTelemetry.Api/1.15.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vk5OGdf6K9kQScCWo3bRjhDWCv6Pqw92IpX4dlARZ8B1WL7/2NGTDtCkkw42eQf7UdwyoHKzVvMH/PtL8d6z7w==",
-      "path": "opentelemetry.api/1.15.0",
-      "hashPath": "opentelemetry.api.1.15.0.nupkg.sha512"
+      "sha512": "sha512-fX+fkCysfPut+qCcT3bKqyX4QN9Saf4CgX8HLOHywEVD+Xr7sULtfuypITpoDysjx8R59dn/3mWhgimMH8cm/g==",
+      "path": "opentelemetry.api/1.15.3",
+      "hashPath": "opentelemetry.api.1.15.3.nupkg.sha512"
     },
-    "OpenTelemetry.Api.ProviderBuilderExtensions/1.15.0": {
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.15.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OnuSUlRpGvowkOzGFQfy+KZFu0cITfKfh2IYJJiZskxVJiOuexwOOuvfDAgpJdmTzVWAHjYdz2shcHZaJ06UjQ==",
-      "path": "opentelemetry.api.providerbuilderextensions/1.15.0",
-      "hashPath": "opentelemetry.api.providerbuilderextensions.1.15.0.nupkg.sha512"
+      "sha512": "sha512-SYn0lqYDwLMWhv/zlNGsQcl2yX++yTumanX46bmOZE/ZDOd1WjPBO2kZaZgKLEZTZk48pavIFGJ6vOvxXgWVFQ==",
+      "path": "opentelemetry.api.providerbuilderextensions/1.15.3",
+      "hashPath": "opentelemetry.api.providerbuilderextensions.1.15.3.nupkg.sha512"
     },
-    "OpenTelemetry.Extensions.Hosting/1.15.0": {
+    "OpenTelemetry.Extensions.Hosting/1.15.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RixjKyB1pbYGhWdvPto4KJs+exdQknJsnjUO9WszdLles5Vcd0EYzxPNJdwmLjYfP+Jfbr4B5nktM4ZgeHSWtg==",
-      "path": "opentelemetry.extensions.hosting/1.15.0",
-      "hashPath": "opentelemetry.extensions.hosting.1.15.0.nupkg.sha512"
+      "sha512": "sha512-u8n/W8yIlqv0BXZmvId1iVaeWXG42tGKdTkuLYg5g57Y/r9CeUNzqtrSHNdG5IoO8iPX79w3v+WsbAHgUQbfeg==",
+      "path": "opentelemetry.extensions.hosting/1.15.3",
+      "hashPath": "opentelemetry.extensions.hosting.1.15.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/10.1.7": {
       "type": "package",

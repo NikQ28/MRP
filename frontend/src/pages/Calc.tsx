@@ -6,16 +6,21 @@ export function Calc() {
 
   return (
     <section className="page">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h2>Расчёты</h2>
         <div className="form-row">
-          <div className="actions-right">
-            <button type="button" onClick={() => void p.reload()}>
-              Обновить
-            </button>
-          </div>
+          <input
+            type="date"
+            value={p.date}
+            onChange={(e) => p.setDate(e.target.value)}
+          />
+          <button
+            type="button"
+            onClick={() => void p.execute()}
+            disabled={p.loading || !p.date}
+          >
+            Выполнить расчёт
+          </button>
         </div>
-      </div>
 
       {!p.loading && (
         <table className="data-table">

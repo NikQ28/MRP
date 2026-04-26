@@ -4,6 +4,6 @@ namespace backend.Domain.Contract
 {
     public interface ICalculateService
     {
-        Task<List<RequiredItem>> Calculate();
+        Task<List<RequiredItem>> Calculate(DateTime datetime);
     }
 }

@@ -200,6 +200,16 @@
         "tags": [
           "Calculate"
         ],
+        "parameters": [
+          {
+            "name": "datetime",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",

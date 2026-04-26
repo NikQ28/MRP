@@ -2,5 +2,6 @@ import { api } from './client'
 import type { RequiredItem } from '../types'
 
 export const calculateApi = {
-  getAll: () => api.get<RequiredItem[]>('/Calculate'),
+  getAll: (datetime: string) =>
+    api.get<RequiredItem[]>(`/Calculate?datetime=${encodeURIComponent(datetime)}`),
 }

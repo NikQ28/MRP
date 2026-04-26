@@ -109,7 +109,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "datetime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[backend.Domain.DTO.RequiredItem, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

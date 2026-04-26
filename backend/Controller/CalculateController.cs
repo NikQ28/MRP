@@ -9,7 +9,7 @@ namespace backend.Controller
     public class CalculateController(ICalculateService calculateService) : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<List<RequiredItem>>> CalculateOrders() => 
-            Ok(await calculateService.Calculate());
+        public async Task<ActionResult<List<RequiredItem>>> CalculateOrders(DateTime datetime) => 
+            Ok(await calculateService.Calculate(datetime));
     }
 }
