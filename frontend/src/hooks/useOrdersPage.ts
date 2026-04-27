@@ -124,6 +124,12 @@ export function useOrdersPage() {
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (form.execution && form.creation && form.execution < form.creation) {
+      alert('Дата выполнения не может быть раньше даты создания');
+      return;
+    }
+
     if (form.orderStrings.length === 0) return
 
     const hasForbidden = form.orderStrings.some(

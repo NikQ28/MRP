@@ -10,7 +10,8 @@ namespace backend.Domain.Service
         public async Task<List<RequiredItem>> Calculate(DateTime datetime)
         {
             var boms = await bomRepository.Get();
-            var orders = (await orderRepository.GetAsync()).Where(o => o.Status == Status.Open).Where(o => o.Execution.Date > datetime.Date).ToList();
+            var orders = (await orderRepository.GetAsync()).Where(o => o.Status == Status.Open)
+                .Where(o => o.Execution.Date >= datetime.Date).Where(o => o.Creation.Date <= datetime.Date).ToList();
             List<OrderString> orderStrings = [];
             foreach (var order in orders)
                 orderStrings.AddRange(await orderRepository.GetStringsByOrderIdAsync(order.Id));

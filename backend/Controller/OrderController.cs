@@ -12,11 +12,21 @@ namespace backend.Controller
         public async Task<ActionResult<List<OrderObject>>> GetAllOrders() => Ok(await orderService.GetAllOrderObjectsAsync());
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreateOrder([FromBody] OrderRequest request) => Ok(await orderService.CreateOrderObjectAsync(request));
+        public async Task<ActionResult<int>> CreateOrder([FromBody] OrderRequest request) 
+        {
+            if (request.Execution < request.Creation)
+                return BadRequest("Дата выполнения не может быть раньше даты создания заказа.");
+            return Ok(await orderService.CreateOrderObjectAsync(request)); 
+        }
 
         [HttpPut("{orderId:int}")]
-        public async Task<ActionResult<int>> UpdateOrder(int orderId, [FromBody] OrderRequest request) =>
-            Ok(await orderService.UpdateOrderObjectAsync(orderId, request));
+        public async Task<ActionResult<int>> UpdateOrder(int orderId, [FromBody] OrderRequest request)
+        {  
+            if (request.Execution < request.Creation)
+                return BadRequest("Дата выполнения не может быть раньше даты создания заказа.");
+            return Ok(await orderService.UpdateOrderObjectAsync(orderId, request));
+        }
+            
 
         [HttpDelete("{orderId:int}")]
         public async Task<ActionResult<int>> DeleteOrder(int orderId) =>

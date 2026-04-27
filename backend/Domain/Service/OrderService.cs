@@ -13,8 +13,8 @@ namespace backend.Domain.Service
             return new OrderObject
             {
                 OrderId = order.Id,
-                Creation = order.Creation,
-                Execution = order.Execution,
+                Creation = order.Creation.Date,
+                Execution = order.Execution.Date,
                 Status = order.Status,
                 OrderStrings = orderStrings
             };
@@ -25,26 +25,21 @@ namespace backend.Domain.Service
             foreach (var orderString in orderStrings)
             {
                 if (orderString.Count < 1)
-                {
                     throw new InvalidOperationException("Количество в строке заказа должно быть не меньше 1.");
-                }
 
                 var childIds = await itemRepository.GetChildrenIdByRootId(orderString.ItemId);
                 if (childIds.Count == 0)
-                {
                     throw new InvalidOperationException("Материал нижнего уровня нельзя добавлять в заказ.");
-                }
             }
         }
 
         public async Task<int> CreateOrderObjectAsync(OrderRequest request)
         {
             await ValidateOrderStringsAsync(request.OrderStrings);
-
             var orderId = await orderRepository.CreateAsync(new Order
             {
-                Creation = request.Creation,
-                Execution = request.Execution,
+                Creation = request.Creation.Date,
+                Execution = request.Execution.Date,
                 Status = request.Status
             });
 

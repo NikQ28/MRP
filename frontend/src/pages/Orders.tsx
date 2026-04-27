@@ -13,15 +13,18 @@ export function Orders() {
           <input
             type="datetime-local"
             value={p.form.creation}
-            onChange={(e) =>
-              p.setForm((prev) => ({ ...prev, creation: e.target.value }))
+            onChange={(e) => 
+              p.setForm(prev => ({ ...prev, creation: e.target.value 
+              }))
             }
           />
           <input
             type="datetime-local"
             value={p.form.execution}
-            onChange={(e) =>
-              p.setForm((prev) => ({ ...prev, execution: e.target.value }))
+            min={p.form.creation}
+            onChange={(e) => 
+              p.setForm(prev => ({ ...prev, execution: e.target.value 
+              }))
             }
           />
           <select
