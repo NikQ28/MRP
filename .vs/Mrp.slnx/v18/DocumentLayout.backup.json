@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\",
+  "WorkspaceRootPath": "C:\\Users\\NikQ28\\source\\repos\\MRP\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\treeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\treeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\calculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\calculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\dataaccess\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\dataaccess\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\domain\\contract\\icalculateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\controller\\bomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\controller\\bomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|c:\\users\\nikq28\\source\\repos\\mrp\\backend\\dataaccess\\mrpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|backend\\backend.csproj|solutionrelative:backend\\dataaccess\\mrpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,30 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MrpContext.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\MrpContext.cs",
-              "RelativeDocumentMoniker": "backend\\DataAccess\\MrpContext.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\MrpContext.cs",
-              "RelativeToolTip": "backend\\DataAccess\\MrpContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T11:16:35.325Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CalculateService.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\CalculateService.cs",
+              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Domain\\Service\\CalculateService.cs",
               "RelativeDocumentMoniker": "backend\\Domain\\Service\\CalculateService.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\CalculateService.cs",
+              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Domain\\Service\\CalculateService.cs",
               "RelativeToolTip": "backend\\Domain\\Service\\CalculateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T15:33:20.157Z",
               "IsPinned": true,
@@ -85,16 +40,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CalculateController.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\CalculateController.cs",
+              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Controller\\CalculateController.cs",
               "RelativeDocumentMoniker": "backend\\Controller\\CalculateController.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\CalculateController.cs",
+              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Controller\\CalculateController.cs",
               "RelativeToolTip": "backend\\Controller\\CalculateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T15:08:24.528Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TreeService.cs",
+              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Domain\\Service\\TreeService.cs",
+              "RelativeDocumentMoniker": "backend\\Domain\\Service\\TreeService.cs",
+              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\MRP\\backend\\Domain\\Service\\TreeService.cs",
+              "RelativeToolTip": "backend\\Domain\\Service\\TreeService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwE8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T22:02:24.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -103,103 +72,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemService.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\ItemService.cs",
-              "RelativeDocumentMoniker": "backend\\Domain\\Service\\ItemService.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\ItemService.cs",
-              "RelativeToolTip": "backend\\Domain\\Service\\ItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:59:56.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "backend\\DataAccess\\Repository\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\DataAccess\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "backend\\DataAccess\\Repository\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:58:32.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\OrderController.cs",
-              "RelativeDocumentMoniker": "backend\\Controller\\OrderController.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\OrderController.cs",
-              "RelativeToolTip": "backend\\Controller\\OrderController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:57:51.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "backend\\Domain\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Service\\OrderService.cs",
-              "RelativeToolTip": "backend\\Domain\\Service\\OrderService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAawCMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T19:50:01.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICalculateService.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Contract\\ICalculateService.cs",
-              "RelativeDocumentMoniker": "backend\\Domain\\Contract\\ICalculateService.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Domain\\Contract\\ICalculateService.cs",
-              "RelativeToolTip": "backend\\Domain\\Contract\\ICalculateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T20:17:31.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BomController.cs",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\BomController.cs",
-              "RelativeDocumentMoniker": "backend\\Controller\\BomController.cs",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Controller\\BomController.cs",
-              "RelativeToolTip": "backend\\Controller\\BomController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T20:16:26.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "backend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "backend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-26T09:55:22.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\appsettings.json",
-              "RelativeDocumentMoniker": "backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\NikQ28\\source\\repos\\Mrp\\backend\\appsettings.json",
-              "RelativeToolTip": "backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-26T09:55:14.587Z"
             }
           ]
         }

@@ -5,7 +5,7 @@ using backend.Domain.Repository;
 
 namespace backend.Domain.Service
 {
-    public class CalculateService(IBomRepository bomRepository, IStockRepository stockRepository, IOrderRepository orderRepository) : ICalculateService
+    public class CalculateService(IBomRepository bomRepository, IStockRepository stockRepository, IOrderRepository orderRepository, ITreeService treeService) : ICalculateService
     {
         public async Task<List<RequiredItem>> Calculate(DateTime datetime)
         {
@@ -24,12 +24,16 @@ namespace backend.Domain.Service
             foreach (var orderString in orderStrings)
                 CalculateItem(orderString.ItemId, orderString.Count, required, stock, children);
 
+            var materialIds = await treeService.GetMaterialIdsByRootId(1);
+            required.RemoveAll(r => !materialIds.Contains(r.ItemId));
+
             return required.OrderBy(r => r.ItemId).ToList();
         }
 
         private void CalculateItem(int itemId, int requiredCount, List<RequiredItem> required, Dictionary<int, int> stock, Dictionary<int, List<Bom>> children)
         {
             var requiredIds = required.Select(r => r.ItemId).Distinct().ToList();
+
             if (!requiredIds.Contains(itemId))
                 required.Add(new RequiredItem { ItemId = itemId });
 

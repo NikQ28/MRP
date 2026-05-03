@@ -34,7 +34,7 @@ export function Calc() {
           </thead>
           <tbody>
             {p.list
-            .filter(row => !(row.needCount === 0 && row.requiredCount === 0 && row.stockCount === 0))
+            .filter(row => !(row.needCount === 0 && row.requiredCount !== 0))
             .map((row) => (
               <tr key={row.itemId}>
                 <td>{p.itemLabel(row.itemId)}</td>
