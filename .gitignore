@@ -1,0 +1,8 @@
+.git/
+.github/
+.vs/
+backend/bin/
+backend/obj/
+backend/Properties/
+backend/appsettings.Development.json
+backend/appsettings.json
